@@ -19,7 +19,8 @@ export default function MCPPlayground() {
   const [serverChecking, setServerChecking] = useState(true);
   const [statusMessage, setStatusMessage] = useState('Connecting to server...');
 
-  const API_BASE_URL = 'http://localhost:8000';
+//  const API_BASE_URL = 'http://localhost:8000';
+  const API_BASE_URL = 'https://cv-chatbot-ivzx.onrender.com';
 
   useEffect(() => {
     let isMounted = true;
