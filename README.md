@@ -1,22 +1,3 @@
-AI-Powered CV Assistant
-An intelligent, interactive assistant that allows you to chat with my CV and send email notifications, powered by Google's Gemini Pro and built with a FastAPI backend and a Next.js frontend.
-This project is a full-stack application demonstrating the integration of a Large Language Model (LLM) to parse and understand document context, exposed via a robust API and consumed by a modern web interface.
-🔗 Live Demos
-Frontend (Next.js): Live on Vercel
-Backend API (FastAPI): Live on Render
-(Note: The backend on Render's free tier may "sleep" after a period of inactivity. The first request might take a moment to wake the server up.)
-![alt text](https://raw.githubusercontent.com/PloKoon68/llm-cv-assistant/main/cv-chatbot-ss.png)
-
-<img width="1047" height="893" alt="image" src="https://github.com/user-attachments/assets/1caaaa41-5669-4bed-b311-5d2477f00d2b" />
-
-(Suggestion: Take a screenshot of your Next.js chat interface and upload it to your GitHub repo, then replace### Instructions:
-
-1.  **Create a file named `README.md`** in the root of your GitHub repository.
-2.  **Copy and paste the text below** into that file.
-3.  **Replace the placeholder values** (like `YOUR_VERCEL_LINK`, your name, and the screenshot link) with your actual information.
-
----
-
 # AI-Powered CV Assistant
 
 > An intelligent, interactive assistant that allows you to chat with my CV and send email notifications, powered by Google's Gemini Pro and built with a FastAPI backend and a Next.js frontend.
@@ -25,15 +6,14 @@ This project is a full-stack application demonstrating the integration of a Larg
 
 ### 🔗 Live Demos
 
-*   **Frontend (Next.js):** [**Live on Vercel**](https://YOUR_VERCEL_LINK)
-*   **Backend API (FastAPI):** [**Live on Render**](https://YOUR_RENDER_LINK/docs)
+*   **Frontend (Next.js):** [**Live on Vercel**](https://llm-cv-assistant.vercel.app)
+*   **Backend API (FastAPI):** [**Live on Render**](https://cv-chatbot-ivzx.onrender.com/docs)
 
 *(Note: The backend on Render's free tier may "sleep" after a period of inactivity. The first request might take a moment to wake the server up.)*
 
 ---
 
-![Project Screenshot](https://raw.githubusercontent.com/PloKoon68/llm-cv-assistant/main/cv-chatbot-ss.png)
-*(Suggestion: Take a screenshot of your Next.js chat interface and upload it to your GitHub repo, then replace the link above.)*
+<img width="1047" height="893" alt="image" src="https://github.com/user-attachments/assets/1caaaa41-5669-4bed-b311-5d2477f00d2b" />
 
 ## ✨ Features
 
@@ -41,7 +21,7 @@ This project is a full-stack application demonstrating the integration of a Larg
 *   **LLM Integration**: Utilizes Google's Gemini Pro model to provide context-aware answers based on the content of my PDF resume.
 *   **Email Notification System**: A dedicated API endpoint to programmatically send emails.
 *   **RESTful API Backend**: Built with FastAPI, providing a scalable, documented, and high-performance server.
-*   **Responsive Frontend**: A clean and modern user interface built with Next.js and React.
+*   **Responsive Frontend**: A clean and modern user interface built with Next.js.
 *   **Dockerized & Deployable**: The backend is fully containerized with Docker for consistent and easy deployment.
 
 ## 🚀 Tech Stack
