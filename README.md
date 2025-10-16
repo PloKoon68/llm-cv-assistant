@@ -39,7 +39,7 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 *   Git
-*   Python 3.9+
+*   Python 3.11+
 *   Node.js and npm
 *   Docker (for containerizing the backend)
 
